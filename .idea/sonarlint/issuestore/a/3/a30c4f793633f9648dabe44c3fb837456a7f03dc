@@ -1,0 +1,25 @@
+
+j
+java:S2259W"MA "NullPointerException" could be thrown; "zipOutputStream" is nullable here.(¾ã¢‘8ÜßŒÓÑ.
+n
+java:S1989R"LHandle the following exception that could be thrown by "write": IOException.(İúÜìÿÿÿÿÿ8˜åƒÏÑ.
+~
+java:S1989."aHandle the following exceptions that could be thrown by "include": ServletException, IOException.(½ññ±8ÌğˆÔÑ.
+p
+java:S1989Q"SHandle the following exception that could be thrown by "putNextEntry": IOException.(ÅıÃÇ8¸œÏÑ.
+E
+java:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ô‘„ÒÑ.
+j
+java:S1989U"MHandle the following exception that could be thrown by "finish": IOException.(÷õ‰8ùø‡ÏÑ.
+x
+java:S1989L"VHandle the following exception that could be thrown by "getOutputStream": IOException.(ë§à’üÿÿÿÿ8µÕôÎÑ.
+‚
+java:S19895"`Handle the following exception that could be thrown by "obtainServiceBoxList": ServletException.(áÓñàûÿÿÿÿ8ˆ‚òÑÑ.
+L
+java:S2093K"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8£ÅíÎÑ.
+i
+java:S1989W"LHandle the following exception that could be thrown by "close": IOException.(¾ã¢‘8‚‘”ÏÑ.
+€
+java:S19892"cHandle the following exception that could be thrown by "obtainAllServicesFromDb": ServletException.(ËôÅÙ8ÒÑ®ÑÑ.
+s
+java:S1989S"QHandle the following exception that could be thrown by "closeEntry": IOException.(ü½òşÿÿÿÿ8î”…ÏÑ.

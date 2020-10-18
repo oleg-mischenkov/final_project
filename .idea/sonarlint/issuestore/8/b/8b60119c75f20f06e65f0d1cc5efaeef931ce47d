@@ -1,0 +1,13 @@
+
+y
+java:S4276^"WRefactor this code to use the more specialised Functional Interface 'Predicate<String>'(€öœäÿÿÿÿÿ8ş·î”Ñ.
+K
+java:S1444U".Make this "public static isNumber" field final(ÀÅŠ“8ÂÙÃüÏ.
+y
+java:S1104^"WMake isNotNumber a static final constant or non-public and provide accessors if needed.(€öœäÿÿÿÿÿ8ş·î”Ñ.
+S
+java:S1444^"1Make this "public static isNotNumber" field final(€öœäÿÿÿÿÿ8ş·î”Ñ.
+q
+java:S1104U"TMake isNumber a static final constant or non-public and provide accessors if needed.(ÀÅŠ“8ÂÙÃüÏ.
+t
+java:S4276U"WRefactor this code to use the more specialised Functional Interface 'Predicate<String>'(ÀÅŠ“8ş·î”Ñ.

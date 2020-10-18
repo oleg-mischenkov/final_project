@@ -1,0 +1,11 @@
+
+W
+java:S2130Š"9Use "Integer.parseInt" for this string-to-int conversion.(óüŸÚ8ô‰İËÎ.
+F
+java:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ˆÚüÏ.
+F
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ˆÚüÏ.
+W
+java:S2130‰"9Use "Integer.parseInt" for this string-to-int conversion.(¯¤¹É8ô‰İËÎ.
+d
+java:S1192"FDefine a constant instead of duplicating this literal "error" 3 times.(…‚²Ë8®¦‹·Î.

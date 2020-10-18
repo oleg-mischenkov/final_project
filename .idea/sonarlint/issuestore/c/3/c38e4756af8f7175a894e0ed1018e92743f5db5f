@@ -1,0 +1,9 @@
+
+q
+java:S2095s"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¦¹­ºúÿÿÿÿ8ª´°íÑ.
+l
+java:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(©Ú‚³8ª´°íÑ.
+V
+java:S2864q"4Iterate over the "entrySet" instead of the "keySet".(Ž‰—±ùÿÿÿÿ8ª´°íÑ.
+T
+java:S3655Q"7Call "Optional#isPresent()" before accessing the value.(‘‡Î…8ª´°íÑ.

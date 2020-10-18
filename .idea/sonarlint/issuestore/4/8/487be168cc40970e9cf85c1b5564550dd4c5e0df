@@ -1,0 +1,12 @@
+
+d
+java:S1128"GRemove this unused import 'com.mischenkov.model.dao.user.MySqlUserDao'.(€Öáó8ÜÓùÓ.
+b	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(”Ï×à8èºŠÓ.
+Q
+java:S1172#"5Remove this unused method parameter "servletContext".(®¬Æh8ƒÿŸÓ.
+I
+java:S1612S",Replace this lambda with a method reference.(Ø ìÀ8úÊóíÏ.
+g
+java:S1128"JRemove this unused import 'com.mischenkov.model.dao.user.ExtendedUserDao'.(Ê´¹‰8ÜÓùÓ.
+c
+java:S2142:"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8€ã™Ó.

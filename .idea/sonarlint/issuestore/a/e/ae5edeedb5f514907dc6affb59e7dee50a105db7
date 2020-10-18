@@ -1,0 +1,18 @@
+
+Y
+java:S1481>"7Remove this unused "localizedTariffMap" local variable.(ò¤şÂıÿÿÿÿ8£õ»¤Ğ.
+h
+java:S1854>"FRemove this useless assignment to local variable "localizedTariffMap".(ò¤şÂıÿÿÿÿ8£õ»¤Ğ.
+^
+java:S1068"ARemove this unused "REQ_PARAM_DESCRIPTION_PATTERN" private field.(”ç«8£õ»¤Ğ.
+J
+java:S1481L"-Remove this unused "language" local variable.(œ×‡÷8£õ»¤Ğ.
+E	java:S108L")Either remove or fill this block of code.(œ×‡÷8£õ»¤Ğ.
+d
+java:S1068"GRemove this unused "REQ_PARAM_SHORT_DESCRIPTION_PATTERN" private field.(®ß‡ò8£õ»¤Ğ.
+V
+java:S1172q"9Remove this unused method parameter "searchPatternTitle".(ÖğÊ€8£õ»¤Ğ.
+]
+java:S1068";Remove this unused "REQ_PARAM_TITLE_PATTERN" private field.(¡‰—½úÿÿÿÿ8£õ»¤Ğ.
+V
+java:S4973;"9Use the "equals" method if value comparison was intended.(Ãş˜¸8•§‰¤Ğ.

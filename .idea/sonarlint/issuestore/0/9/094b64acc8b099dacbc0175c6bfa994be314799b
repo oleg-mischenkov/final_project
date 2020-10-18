@@ -1,0 +1,13 @@
+
+t	java:S116"SRename this field "iso639_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öê¦˜ùÿÿÿÿ8´ä–…Ï.
+t	java:S116"SRename this field "iso639_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙËªúÿÿÿÿ8—™—…Ï.
+j	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óï¢¾8êáš…Ï.
+m	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÜÐ§8êáš…Ï.
+o	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú¬†õüÿÿÿÿ8êáš…Ï.
+j	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãºü¸8êáš…Ï.
+m	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãºü¸8êáš…Ï.
+j	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Žù¸Û8êáš…Ï.
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÜÐ§8êáš…Ï.
+t	java:S116"SRename this field "iso639_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ƒŒŠùÿÿÿÿ8ó°—…Ï.
+i	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆøÑ8êáš…Ï.
+l	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆøÑ8êáš…Ï.

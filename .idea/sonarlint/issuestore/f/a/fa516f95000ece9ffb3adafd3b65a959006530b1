@@ -1,0 +1,21 @@
+
+~
+java:S1989k"aHandle the following exceptions that could be thrown by "include": ServletException, IOException.(½ññ±8ôçÖ“Ñ.
+v
+java:S1989F"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ÕÆøÕ8‚¯ı“Ñ.
+r
+java:S1989o"\Handle the following exception that could be thrown by "getServiceFromDb": ServletException.(¦áê
+‚
+java:S1989x"`Handle the following exception that could be thrown by "getCountTariffFromDb": ServletException.(³¼±ÿÿÿÿÿ8ÊÊ¹œÑ.
+
+java:S1989€"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Üº‚è8¶â”–Ñ.
+ƒ
+java:S1989a"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ŞÈúÿÿÿÿÿ8«®÷šÑ.
+~
+java:S1989q"\Handle the following exception that could be thrown by "getTariffsFromDb": ServletException.(ªèïÿÿÿÿÿ8‚²„–Ñ.
+t
+java:S19899"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ƒ»ğıÿÿÿÿ
+v
+java:S1989E"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.( ´ç8‚¯ı“Ñ.
+N
+java:S1612u",Replace this lambda with a method reference.(Ã±²öúÿÿÿÿ8„úÁüÑ.

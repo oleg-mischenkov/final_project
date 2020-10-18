@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/ST_FOR_FINAL_PROJECT"
+              auth="Container"
+              type="javax.sql.DataSource"
+              initialSize="50"
+              maxTotal="100" maxIdle="50" maxWaitMillis="10000"
+              username="someuser"
+              password="qwerty123456"
+              defaultAutoCommit="false"
+              defaultTransactionIsolation="READ_COMMITTED"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              connectionProperties="characterEncoding=utf8;characterSetResults=UTF-8;useUnicode=true"
+              url="jdbc:mysql://localhost:3306/final_db?serverTimezone=UTC"/>
+</Context>

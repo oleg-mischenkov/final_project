@@ -1,0 +1,13 @@
+
+L
+java:S1874…"0Remove this use of "putValue"; it is deprecated.(—ªÄÏşÿÿÿÿ
+F
+java:S1874q"0Remove this use of "getValue"; it is deprecated.(ÀÆ›
+O
+java:S1874g"9Remove this use of "getSessionContext"; it is deprecated.(ûˆ¿Å
+P
+java:S1874{"5Remove this use of "getValueNames"; it is deprecated.(²‡øÿÿÿÿ
+O
+java:S1874"3Remove this use of "removeValue"; it is deprecated.(ÜÑÎ›ıÿÿÿÿ
+O
+java:S1874f":Remove this use of "HttpSessionContext"; it is deprecated.(ıê[

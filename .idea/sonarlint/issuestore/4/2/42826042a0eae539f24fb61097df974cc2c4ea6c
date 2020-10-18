@@ -1,0 +1,9 @@
+
+Q
+java:S1854";Remove this useless assignment to local variable "fromUrl".(—Ì€
+n
+java:S1989)"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Ø¿ÄÖúÿÿÿÿ
+B
+java:S1481",Remove this unused "fromUrl" local variable.(—Ì€
+z
+java:S1989."_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(—ôÖ¢øÿÿÿÿ
