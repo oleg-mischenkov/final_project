@@ -1,5 +1,8 @@
 package com.mischenkov.model.validation;
 
+/**
+ *  Common regexp patterns for validation of data from the site.
+ */
 public interface ValidPattern {
 
     String LOGIN = "[a-zA-Z0-9а-яА-ЯжЖёЁ]{3,16}";

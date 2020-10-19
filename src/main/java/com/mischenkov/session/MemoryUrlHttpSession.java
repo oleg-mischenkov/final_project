@@ -37,10 +37,10 @@ public class MemoryUrlHttpSession implements HttpSession {
 
 
     /**
-     * Метод добавляет в очередь url с которого поступил запрос на сервлет. Если очередь содержит больше урлов, чем
-     * URL_MAX_CAPACITY (по умолчанию 5) то метод удаляет последний элемент в очереди и вставляет новый в ее голову.
+     * The method adds to the queue the url from which the request for the servlet came. If the queue contains more urls than
+     * URL_MAX_CAPACITY (default 5) then the method removes the last item in the queue and inserts a new one into its head.
      *
-     * @param url строка содержащая урл. Может бросить NPE если УРЛ является нулом.
+     * @param url   - string containing url. May throw NPE if url is null.
      */
     public void putUrl(String url) {
         Objects.requireNonNull(url, "putUrl(String url), \"url\" is null.");
@@ -56,9 +56,9 @@ public class MemoryUrlHttpSession implements HttpSession {
     }
 
     /**
-     * Метод возвращает последний посещенный урл или нул если список урлов пуст.
+     * The method returns the last visited url or zero if the url list is empty.
      *
-     * @return
+     * @return  - last visited url
      */
     public String getUrl() {
         Deque<String> urlDeque = (Deque<String>) httpSession.getAttribute( SessionVariable.SESSION_URL_SCOPE );

@@ -1,11 +1,18 @@
 package com.mischenkov.controller.admin;
 
+import org.apache.log4j.Logger;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ *  The class is the base implementation of the front controller pattern.
+ */
 public abstract class AdminAbstractCommand implements Command {
+
+    private static final Logger LOG = Logger.getLogger(AdminAbstractCommand.class);
 
     private static final String METHOD_GET = "GET";
 
@@ -39,6 +46,13 @@ public abstract class AdminAbstractCommand implements Command {
         // NOP
     }
 
+    /**
+     *  This method finds the desired view for the handler.
+     *
+     * @param urlGoal   - name of the jsp page
+     * @throws IOException
+     * @throws ServletException
+     */
     protected void forward(String urlGoal) throws IOException, ServletException {
         urlGoal = String.format("/WEB-INF/view/admin/%s.jsp", urlGoal);
         req.getRequestDispatcher( urlGoal ).forward(req, resp);

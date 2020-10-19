@@ -20,6 +20,9 @@ import java.util.TreeMap;
 import static com.mischenkov.model.validation.Validator.isNull;
 import static com.mischenkov.model.validation.Validator.match;
 
+/**
+ *  The handler adds and validates a new service.
+ */
 public class AddServiceCommand extends SpecificValidationCommand {
 
     private static final Logger LOG = Logger.getLogger(AddServiceCommand.class);

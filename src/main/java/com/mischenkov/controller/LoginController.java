@@ -23,6 +23,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.regex.Pattern;
 
+/**
+ *  A servlet is needed to process requests from users who want to log into the site.
+ */
 public class LoginController extends HttpServlet {
 
     private static final Logger LOG = Logger.getLogger(LoginController.class);

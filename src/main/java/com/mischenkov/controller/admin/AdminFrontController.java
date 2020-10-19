@@ -6,6 +6,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ *  The handler accepts all requests for the admin page.
+ */
 public class AdminFrontController extends HttpServlet {
 
     private static final String ADMIN_CLASS_PATH_PATTERN = "com.mischenkov.controller.admin.%sCommand";

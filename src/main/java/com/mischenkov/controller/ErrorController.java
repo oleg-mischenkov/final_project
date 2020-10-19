@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  The servlet processes the 404 page of the site.
+ */
 public class ErrorController extends HttpServlet {
 
     @Override

@@ -6,6 +6,11 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
+/**
+ *  Common DAO interface
+ *
+ * @param <T> - the type that the class will work with
+ */
 public interface Dao<T> {
 
     Logger LOG = Logger.getLogger(Dao.class);

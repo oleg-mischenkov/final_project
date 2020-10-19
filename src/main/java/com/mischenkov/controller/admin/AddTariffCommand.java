@@ -21,6 +21,9 @@ import static com.mischenkov.controller.admin.AddServiceCommand.REQ_ATR_START_DA
 import static com.mischenkov.model.validation.Validator.isNull;
 import static com.mischenkov.model.validation.Validator.isNumber;
 
+/**
+ *  The handler adds and validates a new tariff.
+ */
 public class AddTariffCommand extends SpecificValidationCommand {
 
     private static final Logger LOG = Logger.getLogger(AddTariffCommand.class);

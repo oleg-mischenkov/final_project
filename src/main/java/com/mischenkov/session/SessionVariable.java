@@ -1,5 +1,8 @@
 package com.mischenkov.session;
 
+/**
+ *  Common session variables.
+ */
 public interface SessionVariable {
 
     String SESSION_USER_ATTR = "userSessionAttr";

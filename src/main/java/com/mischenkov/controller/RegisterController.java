@@ -18,6 +18,9 @@ import java.io.IOException;
 import static com.mischenkov.model.validation.Validator.isNull;
 import static com.mischenkov.model.validation.Validator.match;
 
+/**
+ *  The servlet validates and creates an account for the user.
+ */
 public class RegisterController extends HttpServlet {
 
     public static final String REQ_PARAM_LOGIN = "login";

@@ -26,6 +26,9 @@ import java.util.stream.Collectors;
 import static com.mischenkov.controller.CommonControllerValues.CURRENT_LANGUAGE;
 import static com.mischenkov.model.validation.Validator.*;
 
+/**
+ *  Servlet renders pages with services.
+ */
 @WebServlet("/service")
 public class ServiceController extends HttpServlet {
 

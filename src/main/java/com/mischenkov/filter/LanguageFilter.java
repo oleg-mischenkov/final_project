@@ -12,6 +12,9 @@ import java.io.IOException;
 import static com.mischenkov.cookie.CookieCommon.COOKIE_LANGUAGE;
 import static com.mischenkov.listener.ContextVariable.CONTEXT_INIT_DEFAULT_LANG;
 
+/**
+ *  The filter checks the language for the user. If the value is absent, then the filter sets the default value.
+ */
 public class LanguageFilter extends HttpFilter {
 
     private static final Logger LOG = Logger.getLogger(LanguageFilter.class);

@@ -1,5 +1,8 @@
 package com.mischenkov.model.exception;
 
+/**
+ *  The general class of exceptions for high-level business logic.
+ */
 public class DBException extends Exception{
 
     public DBException(Exception e) {

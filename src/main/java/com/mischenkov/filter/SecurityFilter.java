@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  The filter restricts user access to some pages.
+ */
 public class SecurityFilter extends HttpFilter {
 
     private static final Logger LOG = Logger.getLogger(SecurityFilter.class);

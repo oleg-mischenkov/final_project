@@ -15,6 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  The filter checks the restrictions for the user.
+ */
 public class PermissionСheckFilter extends HttpFilter {
 
     private static final Logger LOG = Logger.getLogger(PermissionСheckFilter.class);

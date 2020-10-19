@@ -17,6 +17,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  The servlet receives the current status of the order.
+ */
 @WebServlet("/current-order")
 public class CurrentOrderController extends HttpServlet {
 

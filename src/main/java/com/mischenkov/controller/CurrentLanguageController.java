@@ -16,6 +16,9 @@ import static com.mischenkov.cookie.CookieCommon.COOKIE_LANGUAGE;
 import static com.mischenkov.listener.ContextVariable.CONTEXT_CURRENT_LANGS;
 import static com.mischenkov.listener.ContextVariable.CONTEXT_INIT_DEFAULT_LANG;
 
+/**
+ *  The servlet retrieves the current state of the language.
+ */
 @WebServlet("/current-language")
 public class CurrentLanguageController extends HttpServlet {
 

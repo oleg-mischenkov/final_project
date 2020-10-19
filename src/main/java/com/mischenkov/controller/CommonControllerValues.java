@@ -1,5 +1,9 @@
 package com.mischenkov.controller;
 
+
+/**
+ *  List of common variables used by servlets.
+ */
 public interface CommonControllerValues {
 
     // request parameters
@@ -14,7 +18,6 @@ public interface CommonControllerValues {
 
     // common variables
     String CURRENT_LANGUAGE = "currentLanguage";
-    String CURRENT_ORDER = "currentOrder";
     int DEFAULT_ROW_COUNT = 10;                  // for pagination
     int DEFAULT_START_POSITION = 0;              // for pagination
 

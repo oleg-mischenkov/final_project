@@ -19,6 +19,9 @@ import java.io.IOException;
 
 import static com.mischenkov.model.validation.Validator.match;
 
+/**
+ *  The servlet that handles the user's account.
+ */
 @WebServlet("/account")
 public class AccountController extends HttpServlet {
 

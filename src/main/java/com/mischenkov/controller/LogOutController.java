@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  Servlet resets the current state of the session to the user.
+ */
 public class LogOutController extends HttpServlet {
 
     @Override

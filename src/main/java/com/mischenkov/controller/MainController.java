@@ -18,6 +18,9 @@ import java.util.List;
 
 import static com.mischenkov.controller.CommonControllerValues.CURRENT_LANGUAGE;
 
+/**
+ *  The servlet handles requests from the home page of the site.
+ */
 public class MainController extends HttpServlet {
 
     private static final Logger LOGGER = Logger.getLogger(MainController.class);

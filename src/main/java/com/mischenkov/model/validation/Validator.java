@@ -11,6 +11,9 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.regex.Pattern;
 
+/**
+ *  Class for validating input data.
+ */
 public class Validator {
 
     private static final Logger LOG = Logger.getLogger(Validator.class);
@@ -21,29 +24,58 @@ public class Validator {
         checkList = new ArrayList<>();
     }
 
+    /**
+     * A method for building chains of checks.
+     *
+     * @param item - condition to check
+     * @return  - this
+     */
     public Validator append(Boolean item) {
         checkList.add(item);
         return this;
     }
 
+    /**
+     * A method for building chains of checks.
+     *
+     * @param item - condition to check
+     * @return  - this
+     */
     public Validator append(Supplier<Boolean> item) {
         Objects.requireNonNull(item, "append(Supplier<Boolean> item), \"item\" is null");
         checkList.add( item.get() );
         return this;
     }
 
+    /**
+     * A method for building chains of checks.
+     *
+     * @param item - condition to check
+     * @return  - this
+     */
     public Validator append(Integer i,Function<Integer, Boolean> item) {
         Objects.requireNonNull(item, "append(Integer i,Function<Integer, Boolean> item), \"item\" is null");
         checkList.add( item.apply(i) );
         return this;
     }
 
+    /**
+     * A method for building chains of checks.
+     *
+     * @param item - condition to check
+     * @return  - this
+     */
     public Validator append(String s,Function<String, Boolean> item) {
         Objects.requireNonNull(item, "append(String s,Function<String, Boolean> item), \"item\" is null");
         checkList.add( item.apply(s) );
         return this;
     }
 
+    /**
+     * The method for checks the entire chain of conditions.
+     *
+     * @return - returns true if absolutely all conditions are true
+     */
     public boolean validate() {
         for (boolean element: checkList) {
             if (!element) {
@@ -56,6 +88,11 @@ public class Validator {
         return true;
     }
 
+    /**
+     * A method that sets the behavior of the validator if the check returns false.
+     *
+     * @param command - functional interface.
+     */
     public void ifInvalidate(Command command) {
         for (boolean element: checkList) {
             if (!element) {
@@ -69,6 +106,13 @@ public class Validator {
         }
     }
 
+    /**
+     * Validates the input string against a regular expression.
+     *
+     * @param regPattern - regexp expression
+     * @param text  - the string to check
+     * @return - true if the text is valid
+     */
     public static boolean match(String regPattern, String text) {
         Objects.requireNonNull(regPattern, "match(String text, String regPattern), \"regPattern\" is null.");
         if (text == null) {

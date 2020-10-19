@@ -12,6 +12,9 @@ import org.apache.log4j.Logger;
 import javax.servlet.ServletException;
 import java.io.IOException;
 
+/**
+ *  The handler removes the service or tariff.
+ */
 public class DeleteCommand extends SpecificValidationCommand {
 
     private static final Logger LOG = Logger.getLogger(DeleteCommand.class);

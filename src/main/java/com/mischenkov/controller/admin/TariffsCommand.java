@@ -24,6 +24,9 @@ import java.util.List;
 import static com.mischenkov.model.validation.Validator.isNull;
 import static com.mischenkov.model.validation.Validator.isNumber;
 
+/**
+ *  Handler pages tariffs.
+ */
 public class TariffsCommand extends AdminAbstractCommand {
 
     private static final Logger LOG = Logger.getLogger(TariffsCommand.class);

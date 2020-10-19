@@ -30,6 +30,9 @@ import java.util.zip.ZipOutputStream;
 
 import static com.mischenkov.controller.CommonControllerValues.CURRENT_LANGUAGE;
 
+/**
+ *  The servlet generates and sends a list of tariffs for the user.
+ */
 @WebServlet("/price-list")
 public class PriceListController extends HttpServlet {
 

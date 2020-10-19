@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ *  The servlet processes the 500 page of the site.
+ */
 public class ExceptionController extends HttpServlet {
 
     private static final Logger LOG = Logger.getLogger(ExceptionController.class);

@@ -5,6 +5,11 @@ import org.apache.log4j.Logger;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ *  Common interface to retrieve data from ResultSet
+ *
+ * @param <T> - the type that the class will work with.
+ */
 public interface EntityObtainer<T> {
 
     Logger LOG = Logger.getLogger(EntityObtainer.class);

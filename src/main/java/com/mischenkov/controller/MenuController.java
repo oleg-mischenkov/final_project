@@ -15,6 +15,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ *  The servlet participates in the formation of the site's main menu.
+ */
 public class MenuController extends HttpServlet {
 
     private static final Logger LOG = Logger.getLogger(MenuController.class);

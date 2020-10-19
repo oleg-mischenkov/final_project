@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ *  The filter records the pages that the user has visited.
+ */
 public class SpyUrlFilter extends HttpFilter {
 
     private static final Logger LOG = Logger.getLogger(SpyUrlFilter.class);

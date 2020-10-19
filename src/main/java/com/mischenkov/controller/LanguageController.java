@@ -14,6 +14,9 @@ import java.util.List;
 
 import static com.mischenkov.cookie.CookieCommon.COOKIE_LANGUAGE;
 
+/**
+ *  Servlet works with site languages.
+ */
 public class LanguageController extends HttpServlet {
 
     private static final Logger LOG = Logger.getLogger(LanguageController.class);
