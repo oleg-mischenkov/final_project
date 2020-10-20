@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<taglib xmlns="http://java.sun.com/JSP/TagLibraryDescriptor"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/ web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>plates</short-name>
+    <uri>/WEB-INF/tld/custom.tld</uri>
+    <tag>
+        <name>plates</name>
+        <tag-class>com.mischenkov.tag.ServiceTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>services</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>sort</name>
+        <tag-class>com.mischenkov.tag.FilterTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>id</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>service</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>com.mischenkov.entity.Service</type>
+        </attribute>
+        <attribute>
+            <name>optionNatural</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>optionPriceHigh</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>optionPriceLow</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>optionTitleA</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>optionTitleZ</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>

@@ -6,9 +6,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
-/**
- *
- */
 public interface CookieCommon {
 
     Logger LOG = Logger.getLogger(CookieCommon.class);

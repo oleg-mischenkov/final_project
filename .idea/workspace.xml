@@ -2,58 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c16ee27-2a0d-4de3-b7f0-6385b820d668" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/AccountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/BaskedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CartControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentLanguageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentOrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ErrorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ExceptionControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LanguageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LogOutControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MenuControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/PriceListControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/RegisterControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ServiceControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddServiceCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddTariffCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/DeleteCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/ErrorCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/IndexCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/dtm/ServiceBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/tag/ServiceTagTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/BaskedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/BaskedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CommonControllerValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CommonControllerValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentLanguageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentLanguageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ErrorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ExceptionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LanguageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LanguageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LogOutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LogOutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/PriceListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/PriceListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RequestDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RequestDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddServiceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddServiceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddTariffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddTariffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminAbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminAbstractCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminFrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminFrontController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/DeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/DeleteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/ErrorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/ErrorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/TariffsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/TariffsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/cookie/CookieCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/cookie/CookieCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/LanguageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/LanguageFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/PermissionСheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/PermissionСheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SecurityFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SpyUrlFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SpyUrlFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/EntityObtainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/EntityObtainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/card/ExtendedCardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/card/ExtendedCardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/order/ExtendedOrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/order/ExtendedOrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/CardDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/CardDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/DbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/LanguageDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/LanguageDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/OrderDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/OrderDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/PermissionDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/PermissionDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/ServiceDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/ServiceDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/TariffDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/TariffDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/UserDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/UserDbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/DBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/DBException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/EmailOrLoginExistsDBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/EmailOrLoginExistsDBException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/NotThatIdDBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/NotThatIdDBException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/WalletDoesntHaveEnoughMoneyDBException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/WalletDoesntHaveEnoughMoneyDBException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/ValidPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/ValidPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/session/MemoryUrlHttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/session/MemoryUrlHttpSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mischenkov/session/SessionVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mischenkov/session/SessionVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/mischenkov/session/MemoryUrlHttpSessionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/mischenkov/session/PaginatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mischenkov/session/PaginatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,6 +36,18 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/finalproject$All_in_final_project.ic" NAME="All in final-project Coverage Results" MODIFIED="1603156210878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/finalproject$com_mischenkov_in_final_project.ic" NAME="com.mischenkov in final-project Coverage Results" MODIFIED="1603154796812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mischenkov.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="70" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -102,20 +88,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/UserDbService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddTariffCommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/WalletDbService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/DeleteCommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/IndexCommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +141,7 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -154,50 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/BaskedController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CommonControllerValues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentLanguageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentOrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ErrorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ExceptionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LanguageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LogOutController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/PriceListController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RequestDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ServiceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminAbstractCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddServiceCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddTariffCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminFrontController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/DeleteCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/ErrorCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/TariffsCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/cookie/CookieCommon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/LanguageFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/PermissionСheckFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SpyUrlFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/session/SessionVariable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/session/MemoryUrlHttpSession.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/EntityObtainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/card/ExtendedCardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/order/ExtendedOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/DBException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/EmailOrLoginExistsDBException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/NotThatIdDBException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/WalletDoesntHaveEnoughMoneyDBException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/ValidPattern.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/CardDbService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/DbService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/LanguageDbService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/OrderDbService.java" />
@@ -205,6 +172,50 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/ServiceDbService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/TariffDbService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/UserDbService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/WalletDbService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/cookie/CookieCommon.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mischenkov/session/MemoryUrlHttpSessionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/mischenkov/model/dao/user/MySqlUserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/model/dao/user/MySqlUserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/PaginatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/WalletTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/TariffTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/RoleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/PermissionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/LanguageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/CardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/BasketTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/entity/price/list/PriceListFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/tag/FilterTag.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/tag/FilterTagTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/tag/ServiceTagTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/listener/ContextListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/dtm/ServiceBox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/dtm/ServiceBoxTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MainControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/AccountControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/BaskedControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CartControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentLanguageControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentOrderControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ErrorControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ExceptionControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LanguageControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LogOutControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MenuControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/PriceListControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/RegisterControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ServiceControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddServiceCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddTariffCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/DeleteCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/ErrorCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/IndexCommandTest.java" />
       </list>
     </option>
   </component>
@@ -245,7 +256,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1432" />
+    <option name="width" value="1651" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -255,6 +266,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="final-project" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="final-project" type="616d4139:PackageViewModuleNode" />
+              <item name="com.mischenkov" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="final-project" type="616d4139:PackageViewModuleNode" />
+              <item name="com.mischenkov" type="1f31426a:PackageElementNode" />
+              <item name="model" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mischenkov" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
@@ -304,8 +337,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mischenkov" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mischenkov" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
@@ -318,7 +367,24 @@
               <item name="final-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mischenkov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mischenkov" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,28 +555,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="final-project" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="final-project" type="616d4139:PackageViewModuleNode" />
-              <item name="com.mischenkov" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="finalproject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="final-project" type="616d4139:PackageViewModuleNode" />
-              <item name="com.mischenkov" type="1f31426a:PackageElementNode" />
-              <item name="model" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,23 +562,36 @@
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.6140056" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603071980917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603156208684" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalProject-IDEA-MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bkgodznh-task8-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41379312" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mischenkov.controller.admin" />
+      <recent name="com.mischenkov.controller" />
       <recent name="com.mischenkov.dtm" />
-      <recent name="com.mischenkov.entity.price.list" />
+      <recent name="com.mischenkov.listener" />
+      <recent name="com.mischenkov.tag" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EPAM\final-project\src\test\java" />
+      <recent name="D:\EPAM\final-project\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\EPAM\final-project\src\main\webapp\META-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EPAM\final-project\src\main\webapp\WEB-INF" />
@@ -547,10 +604,9 @@
       <recent name="com.mischenkov.entity" />
       <recent name="com.mischenkov.model.dao.user" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\EPAM\final-project\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\EPAM\final-project\src\main\webapp\META-INF" />
-      <recent name="D:\EPAM\final-project\src\test\java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mischenkov.dtm" />
+      <recent name="com.mischenkov.entity.price.list" />
     </key>
   </component>
   <component name="Regex">
@@ -576,58 +632,72 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaginatorTest">
-    <configuration name="MemoryUrlHttpSessionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in final-project">
+    <configuration name="All in final-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mischenkov.session.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mischenkov.session" />
-      <option name="MAIN_CLASS_NAME" value="com.mischenkov.session.MemoryUrlHttpSessionTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryUrlHttpSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainControllerTest.doGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.com.mischenkov.session.*" />
+          <option name="PATTERN" value="com.mischenkov.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java.com.mischenkov.session" />
-      <option name="MAIN_CLASS_NAME" value="java.com.mischenkov.session.MemoryUrlHttpSessionTest" />
+      <option name="PACKAGE_NAME" value="com.mischenkov.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.mischenkov.controller.MainControllerTest" />
+      <option name="METHOD_NAME" value="doGet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaginatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceBoxTest.equals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mischenkov.session.*" />
+          <option name="PATTERN" value="com.mischenkov.dtm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mischenkov.session" />
-      <option name="MAIN_CLASS_NAME" value="com.mischenkov.session.PaginatorTest" />
+      <option name="PACKAGE_NAME" value="com.mischenkov.dtm" />
+      <option name="MAIN_CLASS_NAME" value="com.mischenkov.dtm.ServiceBoxTest" />
+      <option name="METHOD_NAME" value="equals" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mischenkov.session in final-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceBoxTest.hashCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="final-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mischenkov.session.*" />
+          <option name="PATTERN" value="com.mischenkov.dtm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mischenkov.session" />
+      <option name="PACKAGE_NAME" value="com.mischenkov.dtm" />
+      <option name="MAIN_CLASS_NAME" value="com.mischenkov.dtm.ServiceBoxTest" />
+      <option name="METHOD_NAME" value="hashCodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mischenkov in final-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="final-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mischenkov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mischenkov" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -635,10 +705,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaginatorTest" />
-        <item itemvalue="JUnit.com.mischenkov.session in final-project" />
-        <item itemvalue="JUnit.MemoryUrlHttpSessionTest (1)" />
-        <item itemvalue="JUnit.MemoryUrlHttpSessionTest" />
+        <item itemvalue="JUnit.All in final-project" />
+        <item itemvalue="JUnit.com.mischenkov in final-project" />
+        <item itemvalue="JUnit.MainControllerTest.doGet" />
+        <item itemvalue="JUnit.ServiceBoxTest.hashCodeTest" />
+        <item itemvalue="JUnit.ServiceBoxTest.equals" />
       </list>
     </recent_temporary>
   </component>
@@ -715,44 +786,46 @@
       <workItem from="1602859353359" duration="22125000" />
       <workItem from="1602942020949" duration="31268000" />
       <workItem from="1603024086287" duration="7049000" />
-      <workItem from="1603057000058" duration="11799000" />
+      <workItem from="1603057000058" duration="12905000" />
+      <workItem from="1603119278983" duration="336000" />
+      <workItem from="1603131900030" duration="14814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemoryUrlHttpSessionTest_(1) - 2020.09.24 at 14h 19m 52s.xml">
-      <configuration name="MemoryUrlHttpSessionTest (1)" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 52m 55s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoryUrlHttpSessionTest_(1) - 2020.09.24 at 14h 20m 58s.xml">
-      <configuration name="MemoryUrlHttpSessionTest (1)" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 54m 54s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoryUrlHttpSessionTest_(1) - 2020.09.24 at 14h 21m 11s.xml">
-      <configuration name="MemoryUrlHttpSessionTest (1)" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 56m 54s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_mischenkov_session_in_final-project - 2020.09.24 at 14h 21m 18s.xml">
-      <configuration name="com.mischenkov.session in final-project" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 57m 50s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_mischenkov_session_in_final-project - 2020.09.24 at 14h 22m 30s.xml">
-      <configuration name="com.mischenkov.session in final-project" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 58m 21s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_mischenkov_session_in_final-project - 2020.09.24 at 14h 27m 49s.xml">
-      <configuration name="com.mischenkov.session in final-project" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 03h 59m 27s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_mischenkov_session_in_final-project - 2020.09.24 at 14h 32m 45s.xml">
-      <configuration name="com.mischenkov.session in final-project" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 04h 02m 26s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_mischenkov_session_in_final-project - 2020.09.24 at 14h 34m 36s.xml">
-      <configuration name="com.mischenkov.session in final-project" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 04h 04m 11s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaginatorTest - 2020.10.01 at 14h 11m 42s.xml">
-      <configuration name="PaginatorTest" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 04h 05m 46s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaginatorTest - 2020.10.01 at 14h 12m 38s.xml">
-      <configuration name="PaginatorTest" configurationId="JUnit" />
+    <history-entry file="All_in_final-project - 2020.10.20 at 04h 07m 14s.xml">
+      <configuration name="All in final-project" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="671509000" />
+    <option name="totallyTimeSpent" value="687765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,9 +838,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20727673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25192943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -777,12 +849,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944875" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.25337487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6306505" visible="true" weight="0.20768432" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6306505" weight="0.20768432" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3693495" side_tool="true" weight="0.26583594" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32917964" />
@@ -793,6 +865,7 @@
       <window_info anchor="bottom" id="Regex" order="15" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.32917964" />
       <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.32917964" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.1786108" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -847,394 +920,451 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LogOutController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/entity/BasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        <state relative-caret-position="637">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/entity/price/list/PriceListFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="105" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="105" />
+          <folding>
+            <element signature="method#firstLetterUp#0;class#PriceListFactory#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/entity/price/list/PriceListFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/tag/FilterTagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/tag/FilterTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/tag/ServiceTagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/listener/ContextListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/listener/ContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="method#moneyTakerDemon#0;class#ContextListener#0" />
+            <element signature="method#initLog4J#0;class#ContextListener#0" />
+            <element signature="method#languageInit#0;class#ContextListener#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/dtm/ServiceBoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        <state relative-caret-position="119">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="method#obtainServicesFromDb#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MainControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/tag/ServiceTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/AccountControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/BaskedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/BaskedControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/dtm/ServiceBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentLanguageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/CurrentOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentLanguageControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ExceptionControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ExceptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LanguageControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LanguageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LoginControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="119">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/MenuControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#obtainCurrentServices#0;class#MenuController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/LogOutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/LogOutControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/PriceListControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/PriceListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+        <state relative-caret-position="136">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/RegisterControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        <state relative-caret-position="119">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/RequestDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CartControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ServiceControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/ServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="method#getCountTariffFromDb#0;class#ServiceController#0" />
-            <element signature="method#getTariffsFromDb#0;class#ServiceController#0" />
-            <element signature="method#getNotNumberValueFromRequest#0;class#ServiceController#0" />
-            <element signature="method#getServiceFromDb#0;class#ServiceController#0" />
-            <element signature="method#numberValidation#0;class#ServiceController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminAbstractCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        <state relative-caret-position="136">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddServiceCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="119">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/CurrentOrderControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AddTariffCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="119">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/AdminFrontController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddServiceCommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="102">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="method#firstLetterUp#0;class#AdminFrontController#0" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/DeleteCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/AddTariffCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/ErrorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="136">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/ErrorControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/ErrorCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/IndexCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/SpecificValidationCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/DeleteCommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="method#obtainRequestParam#0;class#SpecificValidationCommand#0" />
-            <element signature="method#validateNumber#0;class#SpecificValidationCommand#0" />
-            <element signature="method#reqParamValidate#0;class#SpecificValidationCommand#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/controller/admin/TariffsCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mischenkov/controller/admin/IndexCommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/cookie/CookieCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/filter/HttpFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/filter/LanguageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/filter/PermissionСheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SecurityFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/filter/SpyUrlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/session/SessionVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/session/MemoryUrlHttpSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="method#MemoryUrlHttpSession#0;class#MemoryUrlHttpSession#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/CommonFunctionalityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="method#updateEntityActiveState#0;class#CommonFunctionalityDao#0" />
-            <element signature="method#deleteEntity#0;class#CommonFunctionalityDao#0" />
-            <element signature="method#count#0;class#CommonFunctionalityDao#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/SqlOrderBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="method#quiteClose#0;class#Dao#0" />
-            <element signature="method#quiteRollback#0;class#Dao#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/EntityObtainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/card/CardObtainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/language/ExtendedLangDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/card/ExtendedCardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/order/ExtendedOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dao/permission/ExtendedPermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/DBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/EmailOrLoginExistsDBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/NotThatIdDBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/exception/WalletDoesntHaveEnoughMoneyDBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/ValidPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/validation/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
-          <folding>
-            <element signature="method#ifInvalidate#0;class#Validator#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/BaseDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/CardDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/DbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/MySqlLanguageDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/LanguageDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/OrderDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/PermissionDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/ServiceDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/TariffDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/WalletDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mischenkov/model/dbservice/UserDbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1248,7 +1378,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.1954023" />
+                <option value="0.41379312" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1296,7 +1426,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.1954023" />
+                <option value="0.19425288" />
                 <option value="0.6" />
               </list>
             </option>
